@@ -1,0 +1,134 @@
+div {
+     text-align: center;
+     margin: 20px;
+}
+body {
+     background-image: url('back.jpg');
+     background-size: 400px 1600px;
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 100%;
+     text-align: center;
+     padding: 5px 0;
+}
+h1 {
+    font-family: cursive, bold;
+    font-size: 40px;
+}
+.border1 {
+    border: 1px solid black;
+    border-radius: 15px;
+      box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+.border2 {
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+h2 {
+    font-family: cursive, bold;
+    font-size: 40px;
+}
+.section{
+    text-align: left;
+    font-size: 10px;
+}
+.section2{
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+.profil1{
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+.profil2{
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+.profil3{
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+.profil4{
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+.foto-profil1 {
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.foto-profil2 {
+    border: 1px solid black;
+    border-radius: 15px;
+}
+/* Navbar style */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #00a896;
+  padding: 10px 10px;
+}
+
+.navbar .logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 10px;
+  transition: background 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #028090;
+  border-radius: 5px;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: white;
+  list-style: none;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu li a {
+  color: #333;
+  padding: 8px 10px;
+  display: block;
+  border-radius: 5px;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
